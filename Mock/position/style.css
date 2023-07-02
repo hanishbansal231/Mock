@@ -1,0 +1,45 @@
+.boxs {
+    width: 100%;
+    height: 1000vh;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+/* 
+  Relative Example
+*/
+.box1 {
+    position: relative;
+    left: 300px;
+    background: red;
+}
+/* 
+   Fixed Example
+*/
+.box2 {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background: blue;
+}
+/* 
+  Sticky Example
+*/
+.box3 {
+    position: sticky;
+    top: 0;
+    background: green;
+}
+/* 
+ Absolute Example
+*/
+.box4 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    background: yellow;
+}
